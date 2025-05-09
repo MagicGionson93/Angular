@@ -1,2 +1,4 @@
-<p>Profilo di {{personaContatto.nome}} {{personaContatto.cognome}}</p>
-<p>Colore preferito: {{personaContatto.color}}</p>
+<div style="margin-left: 30px" *ngIf="personaContatto">
+    <p>Profilo di {{personaContatto.nome}}, email: {{personaContatto.email}}</p>
+    <!-- <p>Colore preferito: {{personaContatto.color}}</p> -->
+</div>
